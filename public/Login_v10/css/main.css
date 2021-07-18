@@ -27,7 +27,7 @@
 body, html {
 	height: 100%;
 	font-family: Ubuntu-Regular, sans-serif;
-  background-image: url("/public/Login_v10/bg.png");
+  /* background-image: url("/public/Login_v10/bg.png"); */
 }
 
 /*---------------------------------------------*/
