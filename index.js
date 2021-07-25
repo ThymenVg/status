@@ -34,7 +34,6 @@ io.on("connection", socket => {
     socket.emit("allMessages", messageObjects);
 
     socket.on("message", msgObj => {
-        console.log(msgObj)
         // send this msg to all connected users, they append (sender does so locally)
         socket.broadcast.emit("message", msgObj);
         // store msg in database
