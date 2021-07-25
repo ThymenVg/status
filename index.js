@@ -23,19 +23,18 @@ app.get("/socket.io/:filename", (req, res) => {
 });
 
 app.post("/updateHappiness", (req, res) => {
-    let body = res.body;
+    let body = req.body;
     happiness = body.happinessValue;
 });
 
 
 let messageObjects = [];
 io.on("connection", socket => {
-    console.log(`user ${socket.id} connected`);
     // send ALL (maybe limited amount?) msgs to socket.id from database
     socket.emit("allMessages", messageObjects);
 
     socket.on("message", msgObj => {
-        console.log(msgObj);
+        console.log(msgObj)
         // send this msg to all connected users, they append (sender does so locally)
         socket.broadcast.emit("message", msgObj);
         // store msg in database
