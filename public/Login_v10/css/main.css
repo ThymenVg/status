@@ -362,7 +362,7 @@ iframe {
 	padding: 0 20px;
 	width: 100%;
 	height: 62px;
-	background-color: #245195;
+	background-color: #133f8c;
 	border-radius: 3px;
 	border: #133f8c solid 1x;
 
@@ -373,7 +373,7 @@ iframe {
 }
 
 .btn:hover {
-	background-color: #133f8c;
+	background-color: #245195;
 }
 
 .mood {
