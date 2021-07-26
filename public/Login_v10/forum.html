@@ -7,12 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/js/forum.js" defer></script>
     <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="/css/forum.css">
 
     <title>Forum</title>
 </head>
 
 <body style="background-image: URL('/skribbl_wallpaper.png');">
-    
+    <div id="container">
+        <div id="username-container">
+            <input type="text" id="username-input" placeholder="Enter a username">
+        </div>
+        <div id="msg-container"></div>
+        <form id="form">
+            <textarea id="msg-input" type="text"></textarea>
+            <input type="submit" value="send" id="send">
+        </form>
+    </div>
 </body>
 
 </html>
