@@ -36,6 +36,7 @@ body {
 	border: none;
 	border-bottom: 1px solid black;
 	margin: 0;
+	outline: #000000 solid 5px;
 }
 
 #msg-container {
@@ -52,6 +53,7 @@ body {
 	height: 10%;
 	overflow-x: hidden;
 }
+
 #msg-input {
 	width: 89.65%;
 	height: 85%;
@@ -60,11 +62,13 @@ body {
 	border-top: 1px solid black;
 	resize: none;
 }
+
 textarea:focus,
 input:focus {
 	border: none;
 	outline: none;
 }
+
 #send {
 	position: absolute;
 	margin: 0;
@@ -76,7 +80,9 @@ input:focus {
 	width: 10%;
 	height: 9.2%;
 	background-color: #fff;
+	outline: #000000 solid 5px;
 }
+
 #send:hover {
 	background-color: #f0f0f0;
 }
@@ -92,9 +98,11 @@ input:focus {
 	font-family: Ubuntu-Bold;
 	margin-bottom: 0.5%;
 }
+
 .msg-content {
 	margin-bottom: 0.5%;
 }
+
 .msg-time {
 	text-align: right;
 	font-size: 8px;
