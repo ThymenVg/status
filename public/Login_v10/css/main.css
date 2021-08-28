@@ -27,6 +27,14 @@ html {
 	/* background-image: url("/public/Login_v10/bg.png"); */
 }
 
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /*---------------------------------------------*/
 a {
 	font-family: Ubuntu-Regular;
@@ -336,7 +344,7 @@ iframe {
 	display: -ms-flexbox;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #133f8c;
+	background-color: #004cbb;
 
 }
 
@@ -367,9 +375,9 @@ iframe {
 	padding: 0 20px;
 	width: 100%;
 	height: 62px;
-	background-color: #133f8c;
+	background-color: #004cbb;
 	border-radius: 3px;
-	border: #133f8c solid 1x;
+	border: #004cbb solid 1x;
 
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
